@@ -1,0 +1,123 @@
+body{
+    background-color: #3a506b;
+}
+p{
+    display: inline;
+    word-spacing: 2em;
+    cursor: default;
+}
+button{
+    cursor: pointer;
+}
+#display{
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+#Mytextbox{
+    color:white;
+    background: none;
+    width: 100%;
+    border: none;
+    height: 15vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    line-height: 1.2em;
+    font-size: 10vh;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+#useddata{
+    text-align: center;
+    width:200px;
+    word-wrap:break-word;
+}
+#datastore{
+    color:white;
+    font-size: 5vh;
+}
+button{
+    outline-color: black;
+}
+#input1{
+    width: 100%;
+    background: none;
+    color: white;
+    border: none;
+    height: 15vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+#top-display{
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding-bottom: 0em;
+    color: white;
+    background: rgba(19, 18, 18, 0.562);
+}
+.memory{
+    background: none;
+    border: none;
+    color: white;
+    font-size: large;
+    border-bottom: aqua solid 2px;
+}
+#Box{
+    display: grid;
+    grid-template-columns: repeat(1, 7fr 3fr);
+    height: 96vh;
+    grid-gap: 0.2em;
+}
+#History{
+    text-align: center;
+     grid-column: 2/3;
+     grid-row: 1/4;
+     background: rgba(19, 18, 18, 0.562);
+     padding: 1em;
+}
+
+#scientifickeys{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 0.1em;
+    height: 5vh;
+    margin-bottom: 5px;
+}
+#normalfunctions{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 0.2em;
+    height: 60vh;
+}
+#num{
+    background-color: #0b132b;
+}
+.op{
+    background-color: #1c2541;
+    display: flex;
+    border-color: black;
+    justify-content: center;
+    align-items: center;
+    color:aliceblue;
+}
+#sop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    border-color: black;
+    background: black;
+    font-size: 10px;
+} 
+.op:hover,#sop:hover,#num:hover{
+    transition: all 0.2s ease-in;
+    background-color: aliceblue;
+    color:black;
+    transform: scale(0.9);
+}
+.memory:active{
+    transform: scale(0.9);
+    border-bottom: none;
+}

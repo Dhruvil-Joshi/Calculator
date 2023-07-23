@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calfinal.css">
+</head>
+<body>
+    <div id="Box">
+        <div id="top-display">
+            <input type="text" id="input1">
+            <input type="text" id="Mytextbox">
+        </div>
+        <div id="History">
+            <p><button class="memory">History</button> <button class="memory" onclick="cleardata()">Clear</button></p>
+            <br>
+            <div id="useddata">
+                <p id="datastore"></p>
+            </div>
+        </div>
+        <div id="display">
+        <div id="scientifickeys">
+            <button id="sop" onclick="sin()">sin</button>
+            <button id="sop" onclick="cos()">cos</button>
+            <button id="sop" onclick="tan()">tan</button>
+            <button id="sop" onclick="log10()">log</button>
+            <button id="sop" onclick="loge()">ln</button>
+            <button id="sop" onclick="btn('(')">(</button>
+            <button id="sop" onclick="btn(')')">)</button>
+        </div>
+        <div id="normalfunctions">
+            <button class="op" onclick="percentage()">%</button>
+            <button class="op" onclick="Pi()">&Pi;</button>
+            <button class="op" onclick="clr()">C</button>
+            <button class="op" onclick="del()">&#8592;</button>
+            <button class="op" onclick="reciprocal()">1/x</button>
+            <button class="op" onclick="square()">x²</button>
+            <button class="op" onclick="root()">√x</button>
+            <button class="op" onclick="btn('/')">/</button>
+            <button class="op" id="num" onclick="btn(7)">7</button>
+            <button class="op" id="num" onclick="btn(8)">8</button>
+            <button class="op" id="num" onclick="btn(9)">9</button>
+            <button class="op" onclick="btn('*')">x</button>
+            <button class="op" id="num" onclick="btn(4)">4</button>
+            <button class="op" id="num" onclick="btn(5)">5</button>
+            <button class="op" id="num" onclick="btn(6)">6</button>
+            <button class="op" onclick="btn('-')">-</button>
+            <button class="op" id="num" onclick="btn(1)">1</button>
+            <button class="op" id="num" onclick="btn(2)">2</button>
+            <button class="op" id="num" onclick="btn(3)">3</button>
+            <button class="op" onclick="btn('+')">+</button>
+            <button class="op" id="num" onclick="sign()">+/-</button>
+            <button class="op" id="num" onclick="btn(0)">0</button>
+            <button class="op" id="num" onclick="btn('.')">.</button>
+            <button class="op" onclick="calculate()">=</button>
+        </div>
+    </div>
+        
+    <script src="calfinal.js"></script>
+</body>
+</html>
